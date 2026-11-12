@@ -1,0 +1,2060 @@
+{
+  "datasetName": "MedBill Chapter 30 HSN/Tariff Master",
+  "sourceFile": "chapter 30.pdf",
+  "scope": "Chapter 30 - Pharmaceutical products",
+  "caveat": "Customs tariff extract only; not a GST rate schedule. GST rates are intentionally not populated.",
+  "records": [
+    {
+      "hsn": "30012010",
+      "heading": "3001",
+      "description": "Liquid extracts of liver",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30012020",
+      "heading": "3001",
+      "description": "Liver extracts, dry",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30012030",
+      "heading": "3001",
+      "description": "Snake venom",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30012090",
+      "heading": "3001",
+      "description": "Other kg. 10% 10% 3001 90 - Other :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30019010",
+      "heading": "3001",
+      "description": "Of human origin kg. 10% 10% --- Other :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30019091",
+      "heading": "3001",
+      "description": "- Heparin and its salts",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30019099",
+      "heading": "3001",
+      "description": "- Other kg. 10% 10% ________________________________________________________________________________________________ 3002 HUMAN BLOOD; ANIMAL BLOOD PREPARED FORTHERAPEUTIC, PROPHYLACTIC OR DIAGNOSTIC USES; ANTISERA, OTHER BLOOD FRACTIONS AND IMMUNOLOGICAL PRODUCTS, WHETHER OR NOT MODIFIED OR OBTAINED BY MEANS OF BIOTECHNOLOGICAL PROCESSES; V ACCINES,TOXINS, CULTURES OF MICRO-ORGANISMS (EXCLUDING YEASTS) AND OTHER SIMILAR PRODUCTS; CELL CULTURES, WHETHER OR NOT MODIFIED ; - Antisera, other blood fractions and immunological products, whether or not modified or obtained by biotechnological processes:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30021100",
+      "heading": "3002",
+      "description": "Omitted",
+      "unit": "",
+      "status": "Omitted in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30021210",
+      "heading": "3002",
+      "description": "For diphtheria",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30021220",
+      "heading": "3002",
+      "description": "For tetanus",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30021230",
+      "heading": "3002",
+      "description": "For rabies",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30021240",
+      "heading": "3002",
+      "description": "For snake venom",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30021290",
+      "heading": "3002",
+      "description": "Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30021300",
+      "heading": "3002",
+      "description": "Immunological products, unmixed, not put up in kg. 10% 10% measured doses or in forms or packings for retail w.e.f. 1.1.2022 sale",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 3,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30021400",
+      "heading": "3002",
+      "description": "Immunological products, mixed, not put up in kg. 10% 10% measured doses or in forms or packings for retail sale",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30021500",
+      "heading": "3002",
+      "description": "Immunological products, put up in measured doses kg. 10% 10% or in forms or packings for retail sale - Vaccines, toxins, cultures of micro-organisms (excluding yeasts) and similar products: 3002 41 -- Vaccines for human medicine: --- Single vaccines for:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024111",
+      "heading": "3002",
+      "description": "- Cholera and typhoid",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024112",
+      "heading": "3002",
+      "description": "- Hepatitis",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024113",
+      "heading": "3002",
+      "description": "- Tetanus",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024114",
+      "heading": "3002",
+      "description": "- Polio",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024115",
+      "heading": "3002",
+      "description": "- Tuberculosis",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024116",
+      "heading": "3002",
+      "description": "- Rabies",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024117",
+      "heading": "3002",
+      "description": "- Japanese encephalitis",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024118",
+      "heading": "3002",
+      "description": "- Whopping cough (pertussis)",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024119",
+      "heading": "3002",
+      "description": "- Other kg. 10% 10% --- Mixed vaccines for:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024121",
+      "heading": "3002",
+      "description": "- Diphtheria, pertussis and tetanus (DPT)",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024122",
+      "heading": "3002",
+      "description": "- Diphtheria and tetanus (DT)",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024123",
+      "heading": "3002",
+      "description": "- Measles, mumps and rubella (MMR)",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024124",
+      "heading": "3002",
+      "description": "- Typhoid-paratyphoid (TAB)",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024125",
+      "heading": "3002",
+      "description": "- Typhoid-paratyphoid-cholera (TABC)",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024129",
+      "heading": "3002",
+      "description": "- Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024200",
+      "heading": "3002",
+      "description": "Vaccines for veterinary medicine kg. 10% 10% 3002 49 -- Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024910",
+      "heading": "3002",
+      "description": "Cultures of micro-organisms (excluding yeast)",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024920",
+      "heading": "3002",
+      "description": "Toxins",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30024990",
+      "heading": "3002",
+      "description": "Other kg. 10% 10% - Cell cultures, whether or not modified:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30025100",
+      "heading": "3002",
+      "description": "Cell therapy products",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30025900",
+      "heading": "3002",
+      "description": "Other kg. 10% 10% 3002 90 - Other:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30029010",
+      "heading": "3002",
+      "description": "Human blood",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30029020",
+      "heading": "3002",
+      "description": "Animal blood prepared for therapeutic, prophylactic kg. 10% 10% or diagnostic uses",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30029090",
+      "heading": "3002",
+      "description": "Other kg. 10% 10% ________________________________________________________________________________________________ 3003 M EDICAMENTS (EXCLUDING GOODS OF HEADING 3002, 3005 OR 3006) CONSISTING OF TWO OR MORE CONSTITUENTS WHICH HAVE BEEN MIXED TOGETHER FOR THERAPEUTIC OR PROPHYLACTIC USES, NOT PUT UP IN MEASURED DOSES OR IN FORMS OR PACKINGS FOR RETAIL SALE",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 4,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30031000",
+      "heading": "3003",
+      "description": "Containing penicillins or derivatives thereof, kg. 10% 10% with a penicillanic acid structure, or streptomycins or their derivatives",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30032000",
+      "heading": "3003",
+      "description": "Other, containing antibiotics kg. 10% 10% - Other, containing hormones or other products of heading 2937:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30033100",
+      "heading": "3003",
+      "description": "Containing insulin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30033900",
+      "heading": "3003",
+      "description": "Other kg. 10% 10% - Other, containing alkaloids or derivatives thereof:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30034100",
+      "heading": "3003",
+      "description": "Containing ephedrine or its salts",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30034200",
+      "heading": "3003",
+      "description": "Containing pseudoephedrine (INN) or its salts",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30034300",
+      "heading": "3003",
+      "description": "Containing norephedrine or its salts",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30034900",
+      "heading": "3003",
+      "description": "Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30036000",
+      "heading": "3003",
+      "description": "Other, containing antimalarial active principles kg. 10% 10% described in Sub-heading Note 2 to this Chapter 3003 90 - Other : --- Ayurvedic, Unani, Siddha, Homoeopathic or Bio-chemic systems medicaments :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039011",
+      "heading": "3003",
+      "description": "- Of Ayurvedic system",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039012",
+      "heading": "3003",
+      "description": "- Of Unani system",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039013",
+      "heading": "3003",
+      "description": "- Of Siddha system",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039014",
+      "heading": "3003",
+      "description": "- Of Homoeopathic system",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039015",
+      "heading": "3003",
+      "description": "- Of Bio-chemic system kg. 10% 10% --- Menthol crystals and milk of magnesia :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039021",
+      "heading": "3003",
+      "description": "- Menthol crystals",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039022",
+      "heading": "3003",
+      "description": "- Milk of magnesia kg. 10% 10% --- Bovine albumin and drugs of animal origin, merbromine national formulary XII (mercurochrome), calcium sennoside, anaesthetic agents used in human or veterinary medicine or surgery, aluminium hydroxide gel :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039031",
+      "heading": "3003",
+      "description": "- Bovine albumin and drugs of animal origin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039032",
+      "heading": "3003",
+      "description": "- Merbromine national formulary XII kg. 10% 10% (mercurochrome)",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039033",
+      "heading": "3003",
+      "description": "- Calcium sennoside",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039034",
+      "heading": "3003",
+      "description": "- Anaesthetic agents used in human or veterinary medicine or surgery",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039035",
+      "heading": "3003",
+      "description": "- Aluminium hydroxide gel",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039036",
+      "heading": "3003",
+      "description": "- Ketamine",
+      "unit": "",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30039090",
+      "heading": "3003",
+      "description": "Other kg. 10% 10% ________________________________________________________________________________________________ 3004 M EDICAMENTS (EXCLUDING GOODS OF HEADING 3002, 3005 OR 3006) CONSISTING OF MIXED OR UNMIXED PRODUCTS FOR THERAPEUTIC OR PROPHYLACTIC USES, PUT UP IN MEASURED DOSES (INCLUDING THOSE IN THE FORM OF TRANSDERMAL ADMINISTRATION SYSTEMS) OR IN FORMS OR PACKINGS FOR RETAIL SALE 3004 10 - Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 5,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30041010",
+      "heading": "3004",
+      "description": "Penicillins",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30041020",
+      "heading": "3004",
+      "description": "Ampicillin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30041030",
+      "heading": "3004",
+      "description": "Amoxycillin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30041040",
+      "heading": "3004",
+      "description": "Becampicillin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30041050",
+      "heading": "3004",
+      "description": "Cloxacillin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30041060",
+      "heading": "3004",
+      "description": "Ampicillin and cloxacillin combinations",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30041070",
+      "heading": "3004",
+      "description": "Streptomycin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30041090",
+      "heading": "3004",
+      "description": "Other kg. 10% 10% 3004 20 -- Other Containing antibiotics : --- Cephalosporins and their derivatives :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042011",
+      "heading": "3004",
+      "description": "- Cefazolin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042012",
+      "heading": "3004",
+      "description": "- Cephalexin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042013",
+      "heading": "3004",
+      "description": "- Ciprofloxacin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042014",
+      "heading": "3004",
+      "description": "- Cefoxitin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042019",
+      "heading": "3004",
+      "description": "- Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042020",
+      "heading": "3004",
+      "description": "Sulfonamides and cotrimoxazole kg. 10% 10% --- Fluoroquinolones :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042031",
+      "heading": "3004",
+      "description": "- Norfloxacin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042032",
+      "heading": "3004",
+      "description": "- Nalidixic acid",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042033",
+      "heading": "3004",
+      "description": "- Ciprofloxacin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042034",
+      "heading": "3004",
+      "description": "- Ofloxacin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042039",
+      "heading": "3004",
+      "description": "- Other kg. 10% 10% --- Tetracyclines :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042041",
+      "heading": "3004",
+      "description": "- Chlortetracycline",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042042",
+      "heading": "3004",
+      "description": "- Oxytetracycline",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042049",
+      "heading": "3004",
+      "description": "- Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042050",
+      "heading": "3004",
+      "description": "Chloramphenicol kg. 10% 10% --- Macrolide :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042061",
+      "heading": "3004",
+      "description": "- Erythromycin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042062",
+      "heading": "3004",
+      "description": "- Roxithromycin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042063",
+      "heading": "3004",
+      "description": "- Clarithromycin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042064",
+      "heading": "3004",
+      "description": "- Azithromycin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042069",
+      "heading": "3004",
+      "description": "- Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042070",
+      "heading": "3004",
+      "description": "- Cefadroxil kg. 10% 10% --- Other :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 6,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042091",
+      "heading": "3004",
+      "description": "- Isoniazid",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042092",
+      "heading": "3004",
+      "description": "- Rifampicin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042093",
+      "heading": "3004",
+      "description": "- Pyrazinamide",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042094",
+      "heading": "3004",
+      "description": "- Ethambutol",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042095",
+      "heading": "3004",
+      "description": "- Clindamycin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042096",
+      "heading": "3004",
+      "description": "- Vancomycin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042097",
+      "heading": "3004",
+      "description": "- Polymyxin B and colistin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30042099",
+      "heading": "3004",
+      "description": "- Other kg. 10% 10% - Other, containing hormones or other products of heading 2937: 3004 31 -- Containing insulin:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043110",
+      "heading": "3004",
+      "description": "Insulin injection",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043190",
+      "heading": "3004",
+      "description": "Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043200",
+      "heading": "3004",
+      "description": "Containing corticosteroid hormones, their kg. 10% 10% derivatives or structural analogues 3004 39 -- Other : --- Pituitary hormones; prednisolone; dexamethasone; danazol; other progestogen and oestogen group hormones :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043911",
+      "heading": "3004",
+      "description": "- Pituitary hormones",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043912",
+      "heading": "3004",
+      "description": "- Prednisolone",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043913",
+      "heading": "3004",
+      "description": "- Dexamethasone",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043914",
+      "heading": "3004",
+      "description": "- Danazol",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043919",
+      "heading": "3004",
+      "description": "- Other progestogen and oestogen group hormones kg. 10% 10% --- Gonadotrophins and luteinising hormone :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043921",
+      "heading": "3004",
+      "description": "- Gonadotrophins",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043922",
+      "heading": "3004",
+      "description": "- Luteinising hormone",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30043990",
+      "heading": "3004",
+      "description": "Other kg. 10% 10% - Other, containing alkaloids or derivatives thereof:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044100",
+      "heading": "3004",
+      "description": "Containing ephedrine or its salts",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044200",
+      "heading": "3004",
+      "description": "Containing pseudoephedrine (INN) or its salts",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044300",
+      "heading": "3004",
+      "description": "Containing norephedrine or its salts kg. 10% 10% 3004 49 -- Other:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044910",
+      "heading": "3004",
+      "description": "Atropin and salts thereof",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044920",
+      "heading": "3004",
+      "description": "Caffein and salts thereof",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044930",
+      "heading": "3004",
+      "description": "Codeine and derivatives, with or without ephidrine kg. 10% 10% hydrochloride",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044940",
+      "heading": "3004",
+      "description": "Ergot preparations, ergotamine and salts thereof",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044950",
+      "heading": "3004",
+      "description": "Papavarine hydrochloride",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044960",
+      "heading": "3004",
+      "description": "Bromohexin and solbutamol",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044970",
+      "heading": "3004",
+      "description": "Theophylline and salts thereof",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30044990",
+      "heading": "3004",
+      "description": "Other kg. 10% 10% 3004 50 - Other containing vitamins or other products of heading 2936 :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 7,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045010",
+      "heading": "3004",
+      "description": "Heamatinics and erythropoietin preparations",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045020",
+      "heading": "3004",
+      "description": "Preparations of minerals and their supplements kg. 10% 10% --- Preparations of vitamins :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045031",
+      "heading": "3004",
+      "description": "- Of vitamin A",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045032",
+      "heading": "3004",
+      "description": "- Of vitamin B1 and B2 and salts thereof",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045033",
+      "heading": "3004",
+      "description": "- Of vitamin B9",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045034",
+      "heading": "3004",
+      "description": "- Of vitamin B12",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045035",
+      "heading": "3004",
+      "description": "- Of vitamin C",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045036",
+      "heading": "3004",
+      "description": "- Of vitamin D",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045037",
+      "heading": "3004",
+      "description": "- Of vitamin E",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045039",
+      "heading": "3004",
+      "description": "- Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30045090",
+      "heading": "3004",
+      "description": "Other",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30046000",
+      "heading": "3004",
+      "description": "Other, containing antimalarial active principles kg. 10% 10% described in Sub-heading Note 2 to this Chapter 3004 90 - Other : --- Ayurvedic, Unani, Homoeopathic, Siddha or Bio-chemic systems medicaments, put up for retail sale :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049011",
+      "heading": "3004",
+      "description": "- Of Ayurvedic system",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049012",
+      "heading": "3004",
+      "description": "- Of Unani system",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049013",
+      "heading": "3004",
+      "description": "- Of Siddha system",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049014",
+      "heading": "3004",
+      "description": "- Of Homoeopathic system",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049015",
+      "heading": "3004",
+      "description": "- Of Bio-chemic system kg. 10% 10% --- Anthelmintics drugs; antiamoebic and other antiprotozal drugs; antifungal drugs :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049021",
+      "heading": "3004",
+      "description": "- Anthelmintics and preparations thereof",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049022",
+      "heading": "3004",
+      "description": "- Metronidazole",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049023",
+      "heading": "3004",
+      "description": "- Tinidazole",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049024",
+      "heading": "3004",
+      "description": "- Secnidazole",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049025",
+      "heading": "3004",
+      "description": "- Diluxamide furoate",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049026",
+      "heading": "3004",
+      "description": "- Sodium stibogluconate",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049027",
+      "heading": "3004",
+      "description": "- Pentamidine",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049029",
+      "heading": "3004",
+      "description": "- Other kg. 10% 10% --- Antihistaminics drugs; antacids preparations; antiulcer drugs; antiemitics and other gastrointestinal drugs :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049031",
+      "heading": "3004",
+      "description": "- Promethazine, chlorpheniramine, kg. 10% 10% astemizole and ceteirizine",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049032",
+      "heading": "3004",
+      "description": "- Sodium bicarbonate, magnesium hydroxide kg. 10% 10% (milk of magnesia), magnesium carbonate, magnesium trisilicate, aluminium hydroxide gel, magaldarate and combinations thereof",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049033",
+      "heading": "3004",
+      "description": "- Cimetidine, rantidine, nizatidine and roxatidine",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049034",
+      "heading": "3004",
+      "description": "- Omeprazole and lansoprazole",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 8,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049035",
+      "heading": "3004",
+      "description": "- Dicyclomine, metoclopramide and dexame kg. 10% 10% thasone and ondansetron",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049036",
+      "heading": "3004",
+      "description": "- Chenodiol and ursodiol",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049039",
+      "heading": "3004",
+      "description": "- Other kg. 10% 10% --- Anticancer drugs :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049041",
+      "heading": "3004",
+      "description": "- Cyclophosphamide",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049042",
+      "heading": "3004",
+      "description": "- Methotrexate, 5-fluorouracil(5-FU) and ftorafur",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049043",
+      "heading": "3004",
+      "description": "- Bincristine and vinblastine",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049044",
+      "heading": "3004",
+      "description": "- Paclitaxel and docetaxel",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049045",
+      "heading": "3004",
+      "description": "- Etoposide",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049046",
+      "heading": "3004",
+      "description": "- Actinomycin D Dactinomycin and doxorubicin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049047",
+      "heading": "3004",
+      "description": "- L-Asparaginase, cisplatin and carboplatin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049048",
+      "heading": "3004",
+      "description": "- Tamoxifen",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049049",
+      "heading": "3004",
+      "description": "- Other kg. 10% 10% --- Antitubercular drugs; antileprotic drugs; antimalarial drugs :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049051",
+      "heading": "3004",
+      "description": "- Isoniazid",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049052",
+      "heading": "3004",
+      "description": "- Rifampicin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049053",
+      "heading": "3004",
+      "description": "- Pyrazinamide and ethambutol",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049054",
+      "heading": "3004",
+      "description": "- Streptomycin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049055",
+      "heading": "3004",
+      "description": "- Dapsone (DDS), acedapsone (DADDS), kg. 10% 10% solopsone and clofazimine",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049056",
+      "heading": "3004",
+      "description": "- Chloroquine, amodiaquine, mefloquine, kg. 10% 10% quinine, chloroguamide, pyrimethamine",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049057",
+      "heading": "3004",
+      "description": "- Other antitubercular drugs",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049058",
+      "heading": "3004",
+      "description": "- Other antileprotic drugs",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049059",
+      "heading": "3004",
+      "description": "- Other antimalarial drugs kg. 10% 10% --- Nonsteroidal antiinflammatory, analgesics and antipyratic drugs :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049061",
+      "heading": "3004",
+      "description": "- Analgin with or without other compounds such as paracetamol",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049062",
+      "heading": "3004",
+      "description": "- Acetyl salicylic acid (aspirin) and formulations kg. 10% 10% thereof",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049063",
+      "heading": "3004",
+      "description": "- Ibuprofen with or without paracetamol or other compounds",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049064",
+      "heading": "3004",
+      "description": "- Oxyphen butazone, phenyl butazone and formulations thereof",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049065",
+      "heading": "3004",
+      "description": "- Indomethacin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049066",
+      "heading": "3004",
+      "description": "- Mephenamic acid, dactofenac sodium, kg. 10% 10% piroxicam, tenoxicam and meloxicam",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049067",
+      "heading": "3004",
+      "description": "- Ketorolac, nimesulide, nabumetone and nefopam",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049069",
+      "heading": "3004",
+      "description": "- Other kg. 10% 10% --- Antihypertensive drugs :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049071",
+      "heading": "3004",
+      "description": "- Captopril, enalapril, lisinopril, perindopril and kg. 10% 10% ramipril",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 9,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049072",
+      "heading": "3004",
+      "description": "- Verapamil, nifedipine, amlodipine and lacidipine",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049073",
+      "heading": "3004",
+      "description": "- Losartan",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049074",
+      "heading": "3004",
+      "description": "- Propranolol, metoprolol, atenolol and labetalol",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049075",
+      "heading": "3004",
+      "description": "- Prazosin, terazosin, phentolamine and phenoxybenzamine",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049076",
+      "heading": "3004",
+      "description": "- Clonidine, methyldopa",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049077",
+      "heading": "3004",
+      "description": "- Hydralazine, minoxidil and diazoxide",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049079",
+      "heading": "3004",
+      "description": "- Other kg. 10% 10% --- Antiepiliptic drugs; sulfa drugs not elsewhere specified or included, preparations of enzymes; veterinary medicinal preparations, not for human use, not elsewhere specified or included; oral rehydration salts; antibacterial formulations not elsewhere specified or included, sedatives and tranquilizers :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049081",
+      "heading": "3004",
+      "description": "- Phenobarbitone, mephobarbitone, primidone, kg. 10% 10% phenytoin, carbamazepine, ethosuccimide, valporic acid (sodium valporate), diazepam, lamotrigine, gabapentin, bigabatrin, phenacemide, trimethadione and acetazolamide",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049082",
+      "heading": "3004",
+      "description": "- Other antiepileptic drugs",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049083",
+      "heading": "3004",
+      "description": "- Sulpha drugs not elsewhere specified or included",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049084",
+      "heading": "3004",
+      "description": "- Preparations of enzymes",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049085",
+      "heading": "3004",
+      "description": "- Veterinary medicinal preparations, not for kg. 10% 10% human use, not elsewhere specified or included",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049086",
+      "heading": "3004",
+      "description": "- Oral rehydration salts",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049087",
+      "heading": "3004",
+      "description": "- Antibacterial formulations, not elsewhere specified or included",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049088",
+      "heading": "3004",
+      "description": "- Sedatives",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049089",
+      "heading": "3004",
+      "description": "- Tranquilizers kg. 10% 10% --- Other :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049091",
+      "heading": "3004",
+      "description": "- Salbutamol, terbutaline, ephedrine, salmeterol and methyl xanthimes",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049092",
+      "heading": "3004",
+      "description": "- Plasma expanders",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049093",
+      "heading": "3004",
+      "description": "- Chloropheniramine maleate, with or without other compounds kg. 10% 10% (excluding steriods and alkaloids)",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049094",
+      "heading": "3004",
+      "description": "- Theophylline, aminophylline and other broncho dilators",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049095",
+      "heading": "3004",
+      "description": "- Carcino-chemotherapeutic drugs not elsewhere specified or included",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049096",
+      "heading": "3004",
+      "description": "- Ketamine",
+      "unit": "",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 10,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30049099",
+      "heading": "3004",
+      "description": "- Other kg. 10% 10% ________________________________________________________________________________________________ 3005 W ADDING, GAUZE, BANDAGES AND SIMILAR ARTICLES (FOR EXAMPLE, DRESSINGS, ADHESIVE PLASTERS, POULTICES), IMPREGNATED OR COATED WITH PHARMACEUTICAL SUBSTANCES OR PUT UP IN FORMS OR PACKINGS FOR RETAIL SALE FOR MEDICAL, SURGICAL, DENTAL OR VETERINARY PURPOSES 3005 10 - Adhesive dressings and other articles having an adhesive layer :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30051010",
+      "heading": "3005",
+      "description": "Adhesive guaze",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30051020",
+      "heading": "3005",
+      "description": "Adhesive tape",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30051090",
+      "heading": "3005",
+      "description": "Other kg. 10% - 3005 90 - Other :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30059010",
+      "heading": "3005",
+      "description": "Cotton wool, medicated",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30059020",
+      "heading": "3005",
+      "description": "Poultice of kaolin",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30059030",
+      "heading": "3005",
+      "description": "Lint, medicated",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30059040",
+      "heading": "3005",
+      "description": "Bandages",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30059050",
+      "heading": "3005",
+      "description": "Burn therapy dressing soaked in protective gel kg.10% -",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30059060",
+      "heading": "3005",
+      "description": "Micro pores surgical tapes",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30059070",
+      "heading": "3005",
+      "description": "Corn removers and callous removers",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30059090",
+      "heading": "3005",
+      "description": "Other kg. 10% - ________________________________________________________________________________________________ 3006 P HARMACEUTICAL GOODS SPECIFIED IN NOTE 4 TO THIS CHAPTER 3006 10 - Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or dental adhesion barriers, whether or not absorbable :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30061010",
+      "heading": "3006",
+      "description": "Sterile, surgical catgut and similar sterile suture kg. 10% - materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for wound closure",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30061020",
+      "heading": "3006",
+      "description": "Sterile laminaria and sterile laminaria tents, sterile kg. 10% - absorbable surgical or dental haemostatics, sterile surgical or dental adhesion barriers, whether or not absorbable",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30062000",
+      "heading": "3006",
+      "description": "Omitted",
+      "unit": "",
+      "status": "Omitted in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30063000",
+      "heading": "3006",
+      "description": "Opacifying preprations for X-ray examinations; diagnostic kg. 10% - w.e.f. 1.1.2022 reagents designed to be administered to the patient",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 11,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30064000",
+      "heading": "3006",
+      "description": "Dental cements and other dental fillings; kg. 10% - bone reconstruction cements",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 12,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30065000",
+      "heading": "3006",
+      "description": "First-aid boxes and kits kg. 10% - 3006 60 - Chemical contraceptive preparations based on hormones, on other products of heading 2937 or on spermicides :",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 12,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30066010",
+      "heading": "3006",
+      "description": "Based on hormones",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 12,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30066020",
+      "heading": "3006",
+      "description": "Based on other products of heading 2937",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 12,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30066030",
+      "heading": "3006",
+      "description": "Based on spermicides",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 12,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30067000",
+      "heading": "3006",
+      "description": "Gel preparations designed to be used in human kg. 10% - or veterinary medicine as a lubricant for parts of the body for surgical operations or physical examinations or as a coupling agent between the body and medical instruments - Other:",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 12,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30069100",
+      "heading": "3006",
+      "description": "Appliances identifiable for ostomy use",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 12,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30069200",
+      "heading": "3006",
+      "description": "Waste pharmaceuticals",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 12,
+      "source": "Uploaded Chapter 30 PDF"
+    },
+    {
+      "hsn": "30069300",
+      "heading": "3006",
+      "description": "Placebos and blinded (or double-blinded) clinical trial kits for a recognised clinical trial, put up in measured doses",
+      "unit": "kg",
+      "status": "Listed in supplied tariff",
+      "sourcePage": 12,
+      "source": "Uploaded Chapter 30 PDF"
+    }
+  ]
+}

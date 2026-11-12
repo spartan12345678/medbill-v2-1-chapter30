@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0f766e"><meta name="description" content="MedBill v2 offline-first pharmacy billing and inventory"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"><title>MedBill v2</title></head>
+<body>
+<header><div><strong>MedBill <span class="version">v2.0</span></strong><small>Pharmacy billing · Offline first</small></div><span id="network" class="pill">Checking connection…</span></header>
+<nav aria-label="Main navigation"><button class="nav active" data-view="billing">Billing</button><button class="nav" data-view="stock">Inventory</button><button class="nav" data-view="hsn">HSN reference</button><button class="nav" data-view="invoices">Invoices</button><button class="nav" data-view="settings">Shop setup</button><button class="nav" data-view="backup">Backup</button></nav>
+<main>
+<section id="billing" class="view active">
+ <div class="heading"><div><h1>New bill</h1><p>Retail prices are tax-inclusive by default.</p></div></div>
+ <div class="panel"><div class="formgrid">
+  <label>Invoice type<select id="invoiceType"><option value="gst">GST tax invoice</option><option value="non_gst">Non-GST receipt</option></select></label>
+  <label>Payment mode<select id="paymentMode"><option>Cash</option><option>UPI</option><option>Card</option><option>Other</option></select></label>
+  <label>Pricing method<select id="pricingMode"><option value="inclusive">Price includes GST</option><option value="exclusive">Add GST to price</option></select></label>
+  <label>Customer state (optional)<input id="customerState" placeholder="Default: shop state"></label>
+ </div><p class="hint">For a GST invoice, the customer state determines intra-state CGST + UTGST/SGST or inter-state IGST. Confirm place of supply before issuing.</p></div>
+ <div class="panel"><h2>Add medicine</h2><input id="medicineSearch" placeholder="Search medicine name…" autocomplete="off"><div id="searchResults" class="results"></div></div>
+ <div class="panel"><h2>Cart</h2><div id="cart"><p class="muted">No items added yet.</p></div><div class="totals"><div><span>Taxable value</span><strong id="subtotal">₹0.00</strong></div><div><span>CGST</span><strong id="cgstTotal">₹0.00</strong></div><div><span>UTGST / SGST</span><strong id="stateTaxTotal">₹0.00</strong></div><div><span>IGST</span><strong id="igstTotal">₹0.00</strong></div><div><span>Total GST</span><strong id="taxTotal">₹0.00</strong></div><div class="grand"><span>Total payable</span><strong id="grandTotal">₹0.00</strong></div></div><button id="completeSale" class="primary full" disabled>Complete sale & save invoice</button></div>
+</section>
+<section id="stock" class="view"><div class="heading"><div><h1>Inventory</h1><p>Medicine stock is tracked by batch, expiry and HSN.</p></div></div>
+ <div class="panel"><h2>Add medicine batch</h2><form id="stockForm" class="formgrid">
+  <label>Medicine name<input required id="mName" placeholder="e.g. Paracetamol 500 mg"></label><label>Composition / generic<input id="mComposition" placeholder="Optional"></label>
+  <label>Batch number<input required id="mBatch"></label><label>Expiry date<input required id="mExpiry" type="date"></label>
+  <label>Purchase price (₹)<input required id="mPurchase" type="number" min="0" step="0.01"></label><label>MRP (₹)<input required id="mMrp" type="number" min="0" step="0.01"></label>
+  <label>Retail selling price (₹)<input required id="mPrice" type="number" min="0" step="0.01"></label><label>Opening quantity<input required id="mQty" type="number" min="1" step="1"></label>
+  <label>GST rate (%)<select id="mGst"><option value="0">0%</option><option value="5">5%</option><option value="12">12%</option><option value="18">18%</option><option value="28">28%</option><option value="custom">Other / verify</option></select></label><label>HSN code<input id="mHsn" placeholder="Enter verified HSN for GST sales"></label>
+  <label>Retail price basis<select id="mPriceBasis"><option value="inclusive">Inclusive of GST (recommended)</option><option value="exclusive">Exclusive of GST</option></select></label>
+  <button class="primary" type="submit">Save batch</button>
+ </form></div><div class="panel"><h2>Current stock</h2><div id="stockList"></div></div></section>
+<section id="hsn" class="view">
+  <div class="heading"><div><h1>Chapter 30 HSN reference</h1><p>Search the tariff entries extracted from the supplied Chapter 30 PDF.</p></div></div>
+  <div class="panel">
+   <label for="hsnSearch">Search by HSN code or tariff description</label>
+   <input id="hsnSearch" type="search" placeholder="e.g. 3004, medicaments, liver extracts" autocomplete="off">
+   <p class="hint">This offline catalogue contains 228 extracted Chapter 30 entries. Search results are references only, not confirmed classifications.</p>
+   <div id="hsnStatus" class="hint" aria-live="polite">Loading Chapter 30 reference…</div>
+   <div id="hsnResults" class="hsn-results"></div>
+  </div>
+  <div class="notice"><strong>Important classification and tax warning</strong><p>These entries were extracted from the supplied customs tariff PDF. The PDF is not a GST-rate database. Customs duty figures appearing in the source must not be treated as GST rates. A search result does not establish the correct HSN for a particular product. Verify the complete product description, formulation, presentation and current tariff with a qualified GST professional before using a code on an invoice. No GST rate is assigned by this catalogue.</p></div>
+ </section>
+ <section id="invoices" class="view"><div class="heading"><div><h1>Invoices</h1><p>Saved locally on this device.</p></div></div><div id="invoiceList" class="panel"></div></section>
+<section id="settings" class="view"><div class="heading"><div><h1>Shop setup</h1><p>Business identity and invoice series.</p></div></div><div class="panel"><form id="settingsForm" class="formgrid">
+ <label>Shop name<input id="shopName" required></label><label>Phone<input id="shopPhone" inputmode="tel"></label><label>Address<textarea id="shopAddress"></textarea></label><label>GST registration<select id="gstRegistered"><option value="yes">Registered under GST</option><option value="no">Not registered under GST</option></select></label>
+ <label>GSTIN<input id="shopGstin" maxlength="15" autocomplete="off"></label><label>Drug licence number(s)<textarea id="shopLicence"></textarea></label><label>Shop state / UT<input id="shopState" placeholder="Jammu and Kashmir"></label><label>Invoice prefix<input id="invoicePrefix" maxlength="8" value="SMB"></label>
+ <label>Financial year label<input id="financialYear" maxlength="5" placeholder="2627"></label><label>Next invoice sequence<input id="nextSequence" type="number" min="1" step="1"></label>
+ <button class="primary">Save shop settings</button></form><div class="notice"><strong>Invoice series check</strong><p>GST invoice serial numbers must be consecutive, unique for a financial year and within the statutory character limit. MedBill checks the generated serial length. Confirm the actual series with the shop's GST practitioner before live issue.</p><p id="invoicePreview" class="preview"></p></div></div>
+ <div class="notice"><strong>Compliance boundary</strong><p>MedBill is a billing tool, not a GST filing or drug-licensing system. Verify each medicine's current HSN and GST rate, supplier/customer status, invoice particulars, record retention and applicable pharmacy requirements with qualified professionals. This release does not generate e-invoices or e-way bills.</p></div></section>
+<section id="backup" class="view"><div class="heading"><div><h1>Backup & restore</h1><p>Protect local pharmacy records before changing devices or browser data.</p></div></div><div class="panel"><h2>Export backup</h2><p class="hint">Downloads batches, invoices, settings and stock movement history as a JSON file. Store it securely.</p><button id="exportData" class="primary full">Download backup</button></div><div class="panel"><h2>Restore backup</h2><p class="hint">Restoring replaces current local records. Export a backup first. Only restore a trusted MedBill JSON backup.</p><input id="importFile" type="file" accept="application/json"><button id="importData" class="secondary full">Validate and restore backup</button></div><div class="notice"><strong>Privacy</strong><p>Do not upload backups containing customer or pharmacy data to a public GitHub repository. GitHub hosts application source code, not private transaction backups.</p></div></section>
+</main><footer>MedBill v2.0 · Local-first prototype · Export backups securely.</footer><div id="toast" role="status"></div><script src="app.js"></script></body></html>
