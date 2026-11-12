@@ -1,4 +1,4 @@
-const CACHE='medbill-v2-1-shell';
+const CACHE='medbill-v2-1-1-shell';
 const FILES=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./hsn-chapter30.json'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('medbill-v2-1-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));

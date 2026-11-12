@@ -26,14 +26,50 @@ async function loadHsnCatalogue(){
   hsnLoadPromise=fetch('./hsn-chapter30.json').then(r=>{if(!r.ok)throw new Error('Catalogue file unavailable');return r.json()}).then(data=>{if(!Array.isArray(data.records))throw new Error('Catalogue format is invalid');hsnCatalogue=data.records;$('hsnStatus').textContent=`Loaded ${hsnCatalogue.length} Chapter 30 tariff entries. Reference only.`;renderHsnResults()}).catch(err=>{$('hsnStatus').textContent='Could not load the offline catalogue. Check that hsn-chapter30.json is deployed with the app.';console.error(err)}).finally(()=>{hsnLoadPromise=null});
  }else if(hsnCatalogue){renderHsnResults()}
 }
+const hsnMode=$('hsnSearchMode');
+function cleanHsnDescription(value){
+ let text=String(value||'').replace(/\s+/g,' ').trim();
+ // PDF extraction sometimes appends the next tariff heading after a divider.
+ text=text.split(/(?:_{8,}|-{12,}|={8,})/)[0].trim();
+ // Remove trailing customs-duty table fragments, which are not part of the item description.
+ text=text.replace(/\s+(?:kg|nos?\.?|litres?|l|u)\.?\s+\d{1,2}(?:\.\d+)?%\s+\d{1,2}(?:\.\d+)?%.*$/i,'').trim();
+ return text||'Description requires source-PDF verification';
+}
+function updateHsnSearchMode(){
+ const description=hsnMode.value==='description';
+ $('hsnSearchLabel').textContent=description?'Search tariff description or keywords':'Enter HSN code or 4-digit heading';
+ $('hsnSearch').placeholder=description?'e.g. penicillins, medicaments, liver extracts':'e.g. 3004 or 30041010';
+ $('hsnSearch').value='';renderHsnResults();
+}
+hsnMode.onchange=updateHsnSearchMode;
 $('hsnSearch').oninput=renderHsnResults;
 function renderHsnResults(){
  const host=$('hsnResults');if(!host)return;if(!hsnCatalogue){host.innerHTML='';return}
  const q=$('hsnSearch').value.trim().toLowerCase();
- const matched=hsnCatalogue.filter(x=>!q||[x.hsn,x.heading,x.description,x.unit].some(v=>String(v||'').toLowerCase().includes(q)));
+ const mode=hsnMode.value;
+ let matched=[];
+ if(mode==='code'){
+  const digits=q.replace(/\D/g,'');
+  if(q&&!digits){matched=[];}
+  else if(!digits){matched=hsnCatalogue.slice();}
+  else {
+   matched=hsnCatalogue.filter(x=>String(x.hsn||'').startsWith(digits)||String(x.heading||'')===digits);
+   matched.sort((a,b)=>{
+    const rank=x=>String(x.hsn||'')===digits?0:String(x.heading||'')===digits?1:String(x.hsn||'').startsWith(digits)?2:3;
+    return rank(a)-rank(b)||String(a.hsn||'').localeCompare(String(b.hsn||''));
+   });
+  }
+ }else{
+  const terms=q.split(/\s+/).filter(Boolean);
+  matched=hsnCatalogue.filter(x=>{
+   const haystack=cleanHsnDescription(x.description).toLowerCase();
+   return !terms.length||terms.every(term=>haystack.includes(term));
+  });
+  matched.sort((a,b)=>String(a.hsn||'').localeCompare(String(b.hsn||'')));
+ }
  const rows=matched.slice(0,40);
- $('hsnStatus').textContent=`Showing ${rows.length} of ${matched.length} matching entries${q?' (maximum 40 displayed)':''}.`;
- host.innerHTML=rows.length?rows.map(x=>`<article class="hsn-item"><div class="hsn-top"><strong>HSN / tariff item: ${esc(x.hsn||'Not stated')}</strong><span class="tag warn">Unverified reference</span></div><p><b>Heading:</b> ${esc(x.heading||'Not stated')}</p><p><b>Description as extracted:</b> ${esc(x.description||'No description extracted')}</p><small>Unit: ${esc(x.unit||'Not stated')} · Source page: ${esc(x.sourcePage??'Not stated')}</small></article>`).join(''):'<div class="empty">No matching Chapter 30 entries. Try a code, heading or different description.</div>';
+ $('hsnStatus').textContent=`${mode==='code'?'Code/heading':'Description'} search: showing ${rows.length} of ${matched.length} matching entries${matched.length>40?' (maximum 40 displayed)':''}.`;
+ host.innerHTML=rows.length?rows.map(x=>`<article class="hsn-item"><div class="hsn-top"><strong>HSN / tariff item: ${esc(x.hsn||'Not stated')}</strong><span class="tag warn">Unverified reference</span></div><p><b>Heading:</b> ${esc(x.heading||'Not stated')}</p><p><b>Description as extracted:</b> ${esc(cleanHsnDescription(x.description))}</p><small>Unit: ${esc(x.unit||'Not stated')} · Source page: ${esc(x.sourcePage??'Not stated')}</small></article>`).join(''):'<div class="empty">No matching entries. Check the code/heading or try different description keywords.</div>';
 }
 
 $('medicineSearch').oninput=renderSearch;async function renderSearch(){const q=$('medicineSearch').value.toLowerCase();const rows=(await all('batches')).filter(b=>b.qty>0&&b.expiry>=today()&&b.name.toLowerCase().includes(q)).sort((a,b)=>a.expiry.localeCompare(b.expiry));$('searchResults').innerHTML=rows.slice(0,15).map(b=>`<div class="result"><div><strong>${esc(b.name)}</strong><small>Batch ${esc(b.batch)} · Exp ${esc(b.expiry)} · Stock ${b.qty} · ${money(b.price)} · GST ${b.gst===null?'verify':b.gst+'%'}</small></div><button data-add="${b.id}">Add</button></div>`).join('')||'<p class="muted">No matching available batches.</p>';document.querySelectorAll('[data-add]').forEach(btn=>btn.onclick=()=>addCart(Number(btn.dataset.add)))}
